@@ -1,0 +1,77 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  text-align: center;
+  background-image: url("../images/music.jpg");
+}
+
+#wrapper {
+  width: 750px;
+  min-height: 80%;
+  box-sizing: border-box;
+  padding: 5% 0;
+  margin: 5% auto;
+  background-color: rgb(95, 122, 156);
+}
+
+#wrapper2 {
+  position: relative;
+  top: 20%;
+}
+
+button {
+  display: block;
+  width: 300px;
+  height: 75px;
+  margin: 25px auto 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 36px;
+  cursor: pointer;
+  background: transparent;
+  border: 10px;
+  border-color: black;
+}
+
+h1 {
+  margin-bottom: 35px;
+  font-family: 'Tangerine', serif;
+  font-size: 48px;
+  text-shadow: 4px 4px 4px darkgrey;
+  font-size: 7.5em;
+  color: black;
+}
+
+h2 {
+  margin-bottom: 35px;
+  font-size: 40px;
+}
+
+h3 {
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+
+h4 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 24px;
+}
+
+#begin {
+  margin-top: 10%;
+  background: ivory;
+}
+
+#quiz h2 {
+  margin-top: 50px;
+}
+
+button:hover {
+  background: rgb(221, 208, 89);
+  border: 1px solid black;
+}
